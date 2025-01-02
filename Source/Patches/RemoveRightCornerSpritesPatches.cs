@@ -48,20 +48,5 @@
                 }
             }
         }
-        [HarmonyPatch(typeof(Panel_HUD), nameof(Panel_HUD.Update))]
-        internal static class RemoveEncumbered
-        {
-            private static void Postfix(Panel_HUD __instance)
-            {
-                if (HUDImprovementsSettings.Instance.BuffPopUpWidgets == true)
-                {
-                    __instance.m_Sprite_Encumbered.gameObject.SetActive(true);
-                }
-                else
-                {
-                    __instance.m_Sprite_Encumbered.gameObject.SetActive(false);
-                }
-            }
-        }
     }
 }

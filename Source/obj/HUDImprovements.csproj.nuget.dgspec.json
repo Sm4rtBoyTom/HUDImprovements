@@ -55,7 +55,7 @@
             },
             "STBlade.Modding.TLD.Il2CppAssemblies.Windows": {
               "target": "Package",
-              "version": "[2.25.0, )"
+              "version": "[2.36.0, )"
             },
             "STBlade.Modding.TLD.LocalizationUtilities": {
               "target": "Package",

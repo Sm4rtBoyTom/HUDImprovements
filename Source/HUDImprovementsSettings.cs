@@ -1,5 +1,7 @@
 ﻿using Il2CppRewired.ComponentControls.Data;
 using ModSettings;
+using MelonLoader;
+using UnityEngine;
 
 namespace HUDImprovements
 {
@@ -8,7 +10,15 @@ namespace HUDImprovements
         internal static HUDImprovementsSettings instance = new HUDImprovementsSettings();
         internal static HUDImprovementsSettings Instance { get; } = new();
 
-        public enum HotkeyPreset { Vanilla, Custom }
+        [Section("Yes I Know Settings")]
+
+        [Name("General Items")]
+        [Description("Enable/disable hovertext on items")]
+        public bool hoverGeneral = false;
+
+        [Name("Fire")]
+        [Description("Enable/disable hovertext on fire / stoves")]
+        public bool hoverFire = false;
 
         [Section("Essential")]
 
@@ -31,6 +41,18 @@ namespace HUDImprovements
         [Name("Enable Affliction Event Table")]
         [Description("If enabled, displays affliction table.")]
         public bool AfflictionTable = false;
+
+        [Name("Enable Thin Ice Widget")]
+        [Description("If enabled, displays thin ice warning at the top of the screen.")]
+        public bool ThinIce = false;
+
+        [Name("Enable Respirator HUD")]
+        [Description("If enabled, displays respirator HUD. (Turn off when unecessary)")]
+        public bool Respirator = false;
+
+        [Name("Enable Suffocation HUD")]
+        [Description("If enabled, displays Suffocating HUD. (Turn off when unecessary)")]
+        public bool Suffocation = false;
 
         [Section("Non Essential")]
 
@@ -58,12 +80,21 @@ namespace HUDImprovements
         [Description("If enabled, displays crouch icon in the lower right corner.")]
         public bool Crouch = false;
 
+        [Name("Enable Safehouse Icon")]
+        [Description("If enabled, displays safehouse customization icon in the upper left corner.")]
+        public bool HideIcon = false;
+
+        [Name("Enable Sheltered Icon")]
+        [Description("If enabled, displays safehouse customization icon at the top of the screen.")]
+        public bool Sheltered = false;
+        
+
         public static HUDImprovementsSettings options;
-        internal static void OnLoad()
+        public static void OnLoad()
         {
             options = new HUDImprovementsSettings();
-            options.AddToModSettings("HUD Improvements");
             options.RefreshGUI();
+            options.AddToModSettings("HUD Improvements");
         }
         protected override void OnChange(FieldInfo field, object? oldValue, object? newValue)
         {
@@ -156,9 +187,62 @@ namespace HUDImprovements
             {
                 Instance.AfflictionTable = false;
             }
+            if (HideIcon ==true)
+            {
+                Instance.HideIcon = true; 
+            }
+            else if (HideIcon ==false)
+            {
+                Instance.HideIcon = false;
+            }
+            if (hoverFire ==true)
+            {
+                Instance.hoverFire = true;
+            }
+            else if (hoverFire ==false)
+            {
+                Instance.hoverFire = false;
+            }
+            if (hoverGeneral ==true)
+            {
+                Instance.hoverGeneral = true;
+            }
+            else if (hoverGeneral ==false)
+            {
+                Instance.hoverGeneral = false;
+            }
+            if (Sheltered == true)
+            {
+                Instance.Sheltered = true;
+            }
+            else if (Sheltered == false)
+            {
+                Instance.Sheltered = false;
+            }
+            if (ThinIce ==true)
+            {
+                Instance.ThinIce = true;
+            }
+            else if (ThinIce ==false)
+            {
+                Instance.ThinIce = false;
+            }
+            if (Respirator ==true)
+            {
+                Instance.Respirator = true;
+            }
+            else if (Respirator ==false)
+            {
+                Instance.Respirator = false;
+            }
+            if (Suffocation ==true)
+            {
+                Instance.Suffocation = true;
+            }
+            else if (Suffocation ==false)
+            {
+                Instance.Suffocation = false;
+            }
         }
     }
 }
-
-
-

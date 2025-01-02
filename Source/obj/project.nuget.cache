@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+G8F5Fz1bTA=",
+  "dgSpecHash": "iC07MTDmS1A=",
   "success": true,
   "projectFilePath": "D:\\Tom\\Mod\\HUDImprovements.csproj",
   "expectedPackageFiles": [
@@ -39,7 +39,7 @@
     "C:\\Users\\smart\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\stblade.modding.tld.craftingrevisions\\2.2.3\\stblade.modding.tld.craftingrevisions.2.2.3.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\stblade.modding.tld.gearspawner\\2.3.1\\stblade.modding.tld.gearspawner.2.3.1.nupkg.sha512",
-    "C:\\Users\\smart\\.nuget\\packages\\stblade.modding.tld.il2cppassemblies.windows\\2.25.0\\stblade.modding.tld.il2cppassemblies.windows.2.25.0.nupkg.sha512",
+    "C:\\Users\\smart\\.nuget\\packages\\stblade.modding.tld.il2cppassemblies.windows\\2.36.0\\stblade.modding.tld.il2cppassemblies.windows.2.36.0.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\stblade.modding.tld.localizationutilities\\2.0.0\\stblade.modding.tld.localizationutilities.2.0.0.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\stblade.modding.tld.modcomponent\\6.2.3\\stblade.modding.tld.modcomponent.6.2.3.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\stblade.modding.tld.moddata\\1.5.1\\stblade.modding.tld.moddata.1.5.1.nupkg.sha512",

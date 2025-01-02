@@ -15,19 +15,14 @@ namespace HUDImprovements
         /// <inheritdoc/>
         public override void OnInitializeMelon()
         {
-         MelonLoader.MelonLogger.Msg(System.ConsoleColor.Green, "Hi, HUD Improvements is on!");
-            settings.AddToModSettings("HUD Improvements");
-
+            HUDImprovementsSettings.OnLoad();
+            MelonLoader.MelonLogger.Msg(System.ConsoleColor.Green, "Hi, HUD Improvements is on!");
         }
-
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
-
         }
         public override void OnUpdate()
         {
-
         }
-
     }
 }

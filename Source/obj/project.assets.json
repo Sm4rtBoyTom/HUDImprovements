@@ -773,7 +773,7 @@
           }
         }
       },
-      "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.25.0": {
+      "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.36.0": {
         "type": "package",
         "dependencies": {
           "AsmResolver.DotNet": "5.0.0",
@@ -799,7 +799,6 @@
           "lib/net6.0/Il2CppEasyRoads3Dv3.dll": {},
           "lib/net6.0/Il2CppGdkUtilities.dll": {},
           "lib/net6.0/Il2CppHOTween.dll": {},
-          "lib/net6.0/Il2CppHint.OptionalContent.dll": {},
           "lib/net6.0/Il2CppInfinityCode.MeshToTerrain.Runtime.dll": {},
           "lib/net6.0/Il2CppMegaWire.Runtime.dll": {},
           "lib/net6.0/Il2CppMeshBaker.Runtime.dll": {},
@@ -832,6 +831,7 @@
           "lib/net6.0/Il2CppTLD.OptionalContent.dll": {},
           "lib/net6.0/Il2CppTLD.PDID.dll": {},
           "lib/net6.0/Il2CppTLD.Platform.dll": {},
+          "lib/net6.0/Il2CppTLD.PlatformSupport.dll": {},
           "lib/net6.0/Il2CppTLD.Profiling.dll": {},
           "lib/net6.0/Il2CppTLD.RuntimeTest.dll": {},
           "lib/net6.0/Il2CppTLD.SaveState.dll": {},
@@ -845,15 +845,14 @@
           "lib/net6.0/Il2CppTerrainMountainRoadMaker.Runtime.dll": {},
           "lib/net6.0/Il2CppTotalBaker.Runtime.dll": {},
           "lib/net6.0/Il2CppUniStorm.Runtime.dll": {},
-          "lib/net6.0/Il2CppUserReporting.dll": {},
           "lib/net6.0/Il2CppVolumetricObjects.Runtime.dll": {},
           "lib/net6.0/Il2CppXGamingRuntime.dll": {},
+          "lib/net6.0/Il2Cpp__Generated.dll": {},
           "lib/net6.0/Il2Cppcom.rlabrecque.steamworks.net.dll": {},
           "lib/net6.0/Il2Cppmscorlib.dll": {},
           "lib/net6.0/Il2Cppuniumlib.dll": {},
           "lib/net6.0/Unity.Addressables.dll": {},
           "lib/net6.0/Unity.Analytics.DataPrivacy.dll": {},
-          "lib/net6.0/Unity.Analytics.StandardEvents.dll": {},
           "lib/net6.0/Unity.Burst.Unsafe.dll": {},
           "lib/net6.0/Unity.Burst.dll": {},
           "lib/net6.0/Unity.Mathematics.dll": {},
@@ -946,7 +945,6 @@
           "lib/net6.0/Il2CppEasyRoads3Dv3.dll": {},
           "lib/net6.0/Il2CppGdkUtilities.dll": {},
           "lib/net6.0/Il2CppHOTween.dll": {},
-          "lib/net6.0/Il2CppHint.OptionalContent.dll": {},
           "lib/net6.0/Il2CppInfinityCode.MeshToTerrain.Runtime.dll": {},
           "lib/net6.0/Il2CppMegaWire.Runtime.dll": {},
           "lib/net6.0/Il2CppMeshBaker.Runtime.dll": {},
@@ -979,6 +977,7 @@
           "lib/net6.0/Il2CppTLD.OptionalContent.dll": {},
           "lib/net6.0/Il2CppTLD.PDID.dll": {},
           "lib/net6.0/Il2CppTLD.Platform.dll": {},
+          "lib/net6.0/Il2CppTLD.PlatformSupport.dll": {},
           "lib/net6.0/Il2CppTLD.Profiling.dll": {},
           "lib/net6.0/Il2CppTLD.RuntimeTest.dll": {},
           "lib/net6.0/Il2CppTLD.SaveState.dll": {},
@@ -992,15 +991,14 @@
           "lib/net6.0/Il2CppTerrainMountainRoadMaker.Runtime.dll": {},
           "lib/net6.0/Il2CppTotalBaker.Runtime.dll": {},
           "lib/net6.0/Il2CppUniStorm.Runtime.dll": {},
-          "lib/net6.0/Il2CppUserReporting.dll": {},
           "lib/net6.0/Il2CppVolumetricObjects.Runtime.dll": {},
           "lib/net6.0/Il2CppXGamingRuntime.dll": {},
+          "lib/net6.0/Il2Cpp__Generated.dll": {},
           "lib/net6.0/Il2Cppcom.rlabrecque.steamworks.net.dll": {},
           "lib/net6.0/Il2Cppmscorlib.dll": {},
           "lib/net6.0/Il2Cppuniumlib.dll": {},
           "lib/net6.0/Unity.Addressables.dll": {},
           "lib/net6.0/Unity.Analytics.DataPrivacy.dll": {},
-          "lib/net6.0/Unity.Analytics.StandardEvents.dll": {},
           "lib/net6.0/Unity.Burst.Unsafe.dll": {},
           "lib/net6.0/Unity.Burst.dll": {},
           "lib/net6.0/Unity.Mathematics.dll": {},
@@ -2722,10 +2720,10 @@
         "stblade.modding.tld.gearspawner.nuspec"
       ]
     },
-    "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.25.0": {
-      "sha512": "mjSOJ2/6cjD7kB/t1jVoNZ76/t1A/p/0Or95naIYINGDwDK7D0Jh3JxHeW6B4HZDnzpBLXGs2+kR9Pa6fIHH3Q==",
+    "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.36.0": {
+      "sha512": "s/PHDjn7o+2mPAKdBbexDEhEsZ+18xM4P6ifsYBORB+1NeBdPUz4zG7BlwkbqF46rnN9gUuFYtS7Zrp7XSh+rA==",
       "type": "package",
-      "path": "stblade.modding.tld.il2cppassemblies.windows/2.25.0",
+      "path": "stblade.modding.tld.il2cppassemblies.windows/2.36.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2745,7 +2743,6 @@
         "lib/net6.0/Il2CppEasyRoads3Dv3.dll",
         "lib/net6.0/Il2CppGdkUtilities.dll",
         "lib/net6.0/Il2CppHOTween.dll",
-        "lib/net6.0/Il2CppHint.OptionalContent.dll",
         "lib/net6.0/Il2CppInfinityCode.MeshToTerrain.Runtime.dll",
         "lib/net6.0/Il2CppMegaWire.Runtime.dll",
         "lib/net6.0/Il2CppMeshBaker.Runtime.dll",
@@ -2778,6 +2775,7 @@
         "lib/net6.0/Il2CppTLD.OptionalContent.dll",
         "lib/net6.0/Il2CppTLD.PDID.dll",
         "lib/net6.0/Il2CppTLD.Platform.dll",
+        "lib/net6.0/Il2CppTLD.PlatformSupport.dll",
         "lib/net6.0/Il2CppTLD.Profiling.dll",
         "lib/net6.0/Il2CppTLD.RuntimeTest.dll",
         "lib/net6.0/Il2CppTLD.SaveState.dll",
@@ -2791,15 +2789,14 @@
         "lib/net6.0/Il2CppTerrainMountainRoadMaker.Runtime.dll",
         "lib/net6.0/Il2CppTotalBaker.Runtime.dll",
         "lib/net6.0/Il2CppUniStorm.Runtime.dll",
-        "lib/net6.0/Il2CppUserReporting.dll",
         "lib/net6.0/Il2CppVolumetricObjects.Runtime.dll",
         "lib/net6.0/Il2CppXGamingRuntime.dll",
+        "lib/net6.0/Il2Cpp__Generated.dll",
         "lib/net6.0/Il2Cppcom.rlabrecque.steamworks.net.dll",
         "lib/net6.0/Il2Cppmscorlib.dll",
         "lib/net6.0/Il2Cppuniumlib.dll",
         "lib/net6.0/Unity.Addressables.dll",
         "lib/net6.0/Unity.Analytics.DataPrivacy.dll",
-        "lib/net6.0/Unity.Analytics.StandardEvents.dll",
         "lib/net6.0/Unity.Burst.Unsafe.dll",
         "lib/net6.0/Unity.Burst.dll",
         "lib/net6.0/Unity.Mathematics.dll",
@@ -2876,7 +2873,7 @@
         "lib/net6.0/UnityEngine.WindModule.dll",
         "lib/net6.0/UnityEngine.XRModule.dll",
         "lib/net6.0/UnityEngine.dll",
-        "stblade.modding.tld.il2cppassemblies.windows.2.25.0.nupkg.sha512",
+        "stblade.modding.tld.il2cppassemblies.windows.2.36.0.nupkg.sha512",
         "stblade.modding.tld.il2cppassemblies.windows.nuspec"
       ]
     },
@@ -5391,7 +5388,7 @@
     "net6.0": [
       "STBlade.Modding.TLD.CraftingRevisions >= 2.2.3",
       "STBlade.Modding.TLD.GearSpawner >= 2.3.1",
-      "STBlade.Modding.TLD.Il2CppAssemblies.Windows >= 2.25.0",
+      "STBlade.Modding.TLD.Il2CppAssemblies.Windows >= 2.36.0",
       "STBlade.Modding.TLD.LocalizationUtilities >= 2.0.0",
       "STBlade.Modding.TLD.ModComponent >= 6.2.3",
       "STBlade.Modding.TLD.ModData >= 1.5.1",
@@ -5452,7 +5449,7 @@
           },
           "STBlade.Modding.TLD.Il2CppAssemblies.Windows": {
             "target": "Package",
-            "version": "[2.25.0, )"
+            "version": "[2.36.0, )"
           },
           "STBlade.Modding.TLD.LocalizationUtilities": {
             "target": "Package",

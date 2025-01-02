@@ -6,18 +6,18 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "HUDImprovements/1.0.0": {
+      "SimplerHUD/1.0.0": {
         "dependencies": {
           "STBlade.Modding.TLD.CraftingRevisions": "2.2.3",
           "STBlade.Modding.TLD.GearSpawner": "2.3.1",
-          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.36.0",
+          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.25.0",
           "STBlade.Modding.TLD.LocalizationUtilities": "2.0.0",
           "STBlade.Modding.TLD.ModComponent": "6.2.3",
           "stblade.Modding.TLD.ModData": "1.5.1",
           "STBlade.Modding.TLD.ModSettings": "1.9.0"
         },
         "runtime": {
-          "HUDImprovements.dll": {}
+          "SimplerHUD.dll": {}
         }
       },
       "AsmResolver/5.0.0": {
@@ -848,7 +848,7 @@
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "STBlade.Modding.TLD.CraftingRevisions/2.2.3": {
         "dependencies": {
-          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.36.0",
+          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.25.0",
           "STBlade.Modding.TLD.ModSettings": "1.9.0"
         },
         "runtime": {
@@ -860,7 +860,7 @@
       },
       "STBlade.Modding.TLD.GearSpawner/2.3.1": {
         "dependencies": {
-          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.36.0",
+          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.25.0",
           "STBlade.Modding.TLD.ModSettings": "1.9.0"
         },
         "runtime": {
@@ -870,7 +870,7 @@
           }
         }
       },
-      "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.36.0": {
+      "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.25.0": {
         "dependencies": {
           "AsmResolver.DotNet": "5.0.0",
           "AssetRipper.VersionUtilities": "1.2.1",
@@ -935,6 +935,10 @@
           },
           "lib/net6.0/Il2CppHOTween.dll": {
             "assemblyVersion": "1.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net6.0/Il2CppHint.OptionalContent.dll": {
+            "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
           "lib/net6.0/Il2CppInfinityCode.MeshToTerrain.Runtime.dll": {
@@ -1065,10 +1069,6 @@
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "lib/net6.0/Il2CppTLD.PlatformSupport.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
           "lib/net6.0/Il2CppTLD.Profiling.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
@@ -1121,15 +1121,15 @@
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
+          "lib/net6.0/Il2CppUserReporting.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
           "lib/net6.0/Il2CppVolumetricObjects.Runtime.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
           "lib/net6.0/Il2CppXGamingRuntime.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net6.0/Il2Cpp__Generated.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           },
@@ -1151,6 +1151,10 @@
           },
           "lib/net6.0/Unity.Analytics.DataPrivacy.dll": {
             "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net6.0/Unity.Analytics.StandardEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "0.0.0.0"
           },
           "lib/net6.0/Unity.Burst.Unsafe.dll": {
@@ -1461,7 +1465,7 @@
       },
       "STBlade.Modding.TLD.LocalizationUtilities/2.0.0": {
         "dependencies": {
-          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.36.0"
+          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.25.0"
         },
         "runtime": {
           "lib/net6.0/LocalizationUtilities.dll": {
@@ -1474,7 +1478,7 @@
         "dependencies": {
           "STBlade.Modding.TLD.CraftingRevisions": "2.2.3",
           "STBlade.Modding.TLD.GearSpawner": "2.3.1",
-          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.36.0",
+          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.25.0",
           "STBlade.Modding.TLD.LocalizationUtilities": "2.0.0",
           "STBlade.Modding.TLD.ModSettings": "1.9.0"
         },
@@ -1498,7 +1502,7 @@
       },
       "STBlade.Modding.TLD.ModSettings/1.9.0": {
         "dependencies": {
-          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.36.0"
+          "STBlade.Modding.TLD.Il2CppAssemblies.Windows": "2.25.0"
         },
         "runtime": {
           "lib/net6.0/ModSettings.dll": {
@@ -1940,7 +1944,7 @@
     }
   },
   "libraries": {
-    "HUDImprovements/1.0.0": {
+    "SimplerHUD/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2190,12 +2194,12 @@
       "path": "stblade.modding.tld.gearspawner/2.3.1",
       "hashPath": "stblade.modding.tld.gearspawner.2.3.1.nupkg.sha512"
     },
-    "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.36.0": {
+    "STBlade.Modding.TLD.Il2CppAssemblies.Windows/2.25.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-s/PHDjn7o+2mPAKdBbexDEhEsZ+18xM4P6ifsYBORB+1NeBdPUz4zG7BlwkbqF46rnN9gUuFYtS7Zrp7XSh+rA==",
-      "path": "stblade.modding.tld.il2cppassemblies.windows/2.36.0",
-      "hashPath": "stblade.modding.tld.il2cppassemblies.windows.2.36.0.nupkg.sha512"
+      "sha512": "sha512-mjSOJ2/6cjD7kB/t1jVoNZ76/t1A/p/0Or95naIYINGDwDK7D0Jh3JxHeW6B4HZDnzpBLXGs2+kR9Pa6fIHH3Q==",
+      "path": "stblade.modding.tld.il2cppassemblies.windows/2.25.0",
+      "hashPath": "stblade.modding.tld.il2cppassemblies.windows.2.25.0.nupkg.sha512"
     },
     "STBlade.Modding.TLD.LocalizationUtilities/2.0.0": {
       "type": "package",
