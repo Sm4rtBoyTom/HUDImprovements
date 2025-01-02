@@ -25,3 +25,10 @@ In the current version you can disable:
 
 - **Drop the** **.dll** **file into your mods folder**.
 - **Enjoy**!
+
+This mod was created using [ModTemplate](https://github.com/Arkhorse/TLD-Mod-Template) By [TheIllusion](https://github.com/Arkhorse)
+
+If you want even more customization consider downloading these mods:
+- [Extra Graphics Settings](https://github.com/Arkhorse/ExtraGraphicsSettings) by [TheIllusion](https://github.com/Arkhorse)
+- [Universal Tweaks](https://github.com/Deaadman/UniversalTweaks) by [DeadMan](https://github.com/Deaadman)
+- SafehouseCustomization+ by [Waltz](https://github.com/HAHAYOUDEAD)
