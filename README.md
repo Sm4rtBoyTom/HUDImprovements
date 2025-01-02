@@ -21,7 +21,7 @@ In the current version you can disable:
 
 ### Installation
 
-- **Install** [[ModSettings]([https://github.com/DigitalzombieTLD/ModSettings/releases/tag/v2.0])] **and it's dependencies.**
+- **Install** [[ModSettings](https://github.com/DigitalzombieTLD/ModSettings/releases/tag/v2.0)] **and it's dependencies.**
 
-- **Drop the** **.modcomponent** **file into your mods folder**.
+- **Drop the** **.dll** **file into your mods folder**.
 - **Enjoy**!
