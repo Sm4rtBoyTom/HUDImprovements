@@ -1,8 +1,0 @@
-D:\Tom\Mod\bin\Debug\net6.0\HUDImprovements.deps.json
-D:\Tom\Mod\bin\Debug\net6.0\HUDImprovements.dll
-D:\Tom\Mod\obj\Debug\net6.0\HUDImprovements.csproj.AssemblyReference.cache
-D:\Tom\Mod\obj\Debug\net6.0\HUDImprovements.GeneratedMSBuildEditorConfig.editorconfig
-D:\Tom\Mod\obj\Debug\net6.0\HUDImprovements.csproj.CoreCompileInputs.cache
-D:\Tom\Mod\obj\Debug\net6.0\HUDImprovements.dll
-D:\Tom\Mod\obj\Debug\net6.0\refint\HUDImprovements.dll
-D:\Tom\Mod\obj\Debug\net6.0\ref\HUDImprovements.dll
