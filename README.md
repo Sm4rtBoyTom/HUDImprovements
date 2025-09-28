@@ -1,10 +1,10 @@
 # HUD Tweaks  
 #### AKA (HUDImprovements)
 
-HUD Improvements is a mod for [The Long Dark](https://www.thelongdark.com). 
+HUD Tweaks is a mod for [The Long Dark](https://www.thelongdark.com). 
 A video game developed by [Hinterland Games](https://hinterlandgames.com/).
 
-#### HUD Improvements mod adds ability to enable or disable certain, HUD elements in order to make your playthrough more immersive and realistic (Youd Don't know how many bullets you have left in your mag unless you count every shot) And less cluttered screen overall.
+#### HUD Tweaks mod adds ability to enable or disable certain, HUD elements in order to make your playthrough more immersive and realistic (Youd Don't know how many bullets you have left in your mag unless you count every shot) And less cluttered screen overall.
 
 
 #### Big thanks to [DigitalZombie](https://github.com/DigitalzombieTLD) for allowing me to merge this mod together with his Yes I Know mod
