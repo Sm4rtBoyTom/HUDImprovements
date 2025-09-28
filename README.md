@@ -1,5 +1,5 @@
-# HUD Tweaks  #### (HUDImprovements)
-
+# HUD Tweaks  
+#### AKA (HUDImprovements)
 
 HUD Improvements is a mod for [The Long Dark](https://www.thelongdark.com). 
 A video game developed by [Hinterland Games](https://hinterlandgames.com/).
